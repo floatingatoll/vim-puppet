@@ -8,7 +8,8 @@ TLDR
 
 Add to vim using pathogen:
 
-    git clone https://github.com/floatingatoll/vim-puppet ~/.vim/bundle/vim-puppet
+    git clone https://github.com/godlygeek/tabular         ~/.vim/bundle/tabular
+    git clone https://github.com/floatingatoll/vim-puppet  ~/.vim/bundle/vim-puppet
 
 Add to .vimrc:
 
@@ -23,7 +24,7 @@ To re-indent a file, except for the => lists:
 
     gg=G
 
-To fix a single => list with the cursor on it:
+To fix a single => list, put the cursor on any line in the list and type:
 
     \=
 
