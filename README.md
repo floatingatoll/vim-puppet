@@ -25,9 +25,9 @@ To re-indent a file, except for the => lists:
 
 To fix a single => list with the cursor on it:
 
-    <leader>=
+    \=
 
-(The default leader key is \ unless you changed it.)
+(Unless you changed your leader key from \ to something else.)
 
 Provides
 --------
