@@ -3,6 +3,32 @@ vim-puppet
 
 Make vim more Puppet friendly!
 
+TLDR
+-----
+
+Add to vim using pathogen:
+
+    git clone https://github.com/floatingatoll/vim-puppet ~/.vim/bundle/vim-puppet
+
+Add to .vimrc:
+
+    call pathogen#infect()
+
+    syntax enable
+    filetype plugin indent on
+
+    :map <leader>= Tabularize /=>/l1<Return>
+
+To re-indent a file, except for the => lists:
+
+    gg=G
+
+To fix a single => list with the cursor on it:
+
+    <leader>=
+
+(The default leader key is \ unless you changed it.)
+
 Provides
 --------
 
