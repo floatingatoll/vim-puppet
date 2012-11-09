@@ -18,7 +18,7 @@ Add to .vimrc:
     syntax enable
     filetype plugin indent on
 
-    :map <Leader>= Tabularize /=>/l1<Return>
+    map <Leader>= Tabularize /=>/l1<Return>
 
 To re-indent a file, except for the => lists:
 
